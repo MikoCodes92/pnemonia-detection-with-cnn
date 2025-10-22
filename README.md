@@ -1,6 +1,3 @@
-# Step 0: Move or delete nested Git folder if exists
-if (Test-Path "pnemonia-detection-with-cnn") { Move-Item "pnemonia-detection-with-cnn" "D:\Backup\" }
-
 # Step 1: Create .gitignore
 
 # Python
