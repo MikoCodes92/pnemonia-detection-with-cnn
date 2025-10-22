@@ -2,7 +2,7 @@
 if (Test-Path "pnemonia-detection-with-cnn") { Move-Item "pnemonia-detection-with-cnn" "D:\Backup\" }
 
 # Step 1: Create .gitignore
-@"
+
 # Python
 __pycache__/
 *.pyc
@@ -23,10 +23,10 @@ Thumbs.db
 *.h5
 *.csv
 *.zip
-"@ | Out-File -Encoding UTF8 .gitignore
+ | Out-File -Encoding UTF8 .gitignore
 
 # Step 2: Create README.md
-@"
+
 # Pneumonia Detection Using CNN
 
 This project implements a Convolutional Neural Network (CNN) to detect pneumonia from chest X-ray images.
