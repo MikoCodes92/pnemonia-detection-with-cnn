@@ -1,29 +1,3 @@
-# Step 1: Create .gitignore
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-env/
-venv/
-app_venv/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Dataset / large files
-*.h5
-*.csv
-*.zip
- | Out-File -Encoding UTF8 .gitignore
-
-# Step 2: Create README.md
-
 # Pneumonia Detection Using CNN
 
 This project implements a Convolutional Neural Network (CNN) to detect pneumonia from chest X-ray images.
